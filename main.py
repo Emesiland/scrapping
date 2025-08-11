@@ -1,4 +1,5 @@
-## Определяем список ключевых слов:
-KEYWORDS = ['дизайн', 'фото', 'web', 'python']
+import requests
+from bs4 import BeautifulSoup
 
-## Ваш код
+KEYWORDS = ['дизайн', 'фото', 'web', 'python']
+URL = 'https://habr.com/ru/articles/'
