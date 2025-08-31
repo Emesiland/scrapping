@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from fake_headers import Headers
 
 KEYWORDS = ['дизайн', 'фото', 'web', 'python']
-URL = 'https://habr.com/ru/articles/'
+habr = 'https://habr.com/ru/articles/'
